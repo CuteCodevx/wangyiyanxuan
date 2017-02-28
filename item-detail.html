@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/item-detail.css" type="text/css">
+</head>
+<body>
+    <div class="wrapnav" id="wrapnav">
+        <nav class="container navstyle">
+            <img class="img-responsive col-lg-1" src="images/logo.png"/>
+            <ul class="navbar-nav">
+                <li><a class="active" href="">首页</a></li>
+                <li><a href="">居家</a></li>
+                <li><a href="">餐厨</a></li>
+                <li><a href="">配件</a></li>
+                <li><a href="">服装</a></li>
+                <li><a href="">洗护</a></li>
+                <li><a href="">婴童</a></li>
+                <li><a href="">杂货</a></li>
+                <li><a href="">饮食</a></li>
+                <li><a href="">其他</a></li>
+            </ul>
+            <span>
+                    <a class="text-muted" href="#">登录</a>
+                    <a class="text-muted" href="#">注册</a>
+                    <a href="#"><i class="glyphicon glyphicon-shopping-cart"></i></a>
+                </span>
+        </nav>
+    </div>
+    <div class="fix">
+        <a><img src="images/pic1.jpg"></a>
+        <ul>
+            <li><a href="#"><img src="images/shouna.png"><p>新人有礼</p></a></li>
+            <li><a href="#"><img src="images/shicai.png"><p>下载APP</p></a></li>
+            <li><a href="#"><img src="images/mami.png"><p>在线客服</p></a></li>
+        </ul>
+    </div>
+    <div id="backtop">
+        <i class="glyphicon glyphicon-chevron-up"></i>
+        <p>回顶部</p>
+    </div>
+    <div class="top col-md-12">
+        <span class="col-md-2">好的生活，没那么贵</span>
+        <a href="#" class="col-md-3 hidden-xs"><i class="glyphicon glyphicon-bullhorn"></i>1月5日起刀具类产品新疆地区不发货</a>
+        <ul class="col-sm-4 col-sm-offset-3 visible-lg">
+            <li><a href="#">登录</a></li>
+            <li><a href="#">注册</a></li>
+            <li><a href="#">严选态度</a></li>
+            <li><a href="#">企业采购</a></li>
+            <li id="ShowDownload"><a href="#">下载APP</a></li>
+        </ul>
+        <div id="ShowCode" class="col-md-2 col-md-offset-10">
+            <img src="images/erweima.png"><p>扫码下载 首单立减8元</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 col-md-7 col-sm-4 col-xs-4">
+                <img class="img-responsive pull-right" src="images/logo.png">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 input-group">
+                <input class="form-control" type="text" placeholder="MUJI制造商加厚羽绒被特惠">
+                <a href="#" class="btn btn-warning btn-lg input-group-addon"><span class="glyphicon glyphicon-search"></span></a>
+                <a href="#" class="btn btn-warning btn-lg input-group-addon"><span class="glyphicon glyphicon-shopping-cart"><span class="badge" id="cartnum">0</span></span></a>
+
+            </div>
+
+            <div class="showcart" id="showcart">
+                <div class="alert alert-warning alert-dismissable showcartcontent">
+                    <button type="button" class="close closebtn"><span>&times;</span></button>
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="images/dbag1.png">
+                        </div>
+                        <div class="media-body">
+                            <a class="media-heading" href="#">商务出行多功能双肩包</a><span>￥239.00</span>
+                            <p>黑色 x<strong id="shownum"></strong></p>
+                        </div>
+                    </div>
+                    <div class="pay">
+                        商品合计:<span>￥</span><span id="totalprice"></span><button class="btn btn-warning btn-sm">去购物车结算</button>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="row navstyle" id="TabContent">
+            <ul class="navbar-nav">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="">居家</a></li>
+                <li><a href="">餐厨</a></li>
+                <li><a class="active"  href="">配件</a></li>
+                <li><a href="">服装</a></li>
+                <li><a href="">洗护</a></li>
+                <li><a href="">婴童</a></li>
+                <li><a href="">杂货</a></li>
+                <li><a href="">饮食</a></li>
+                <li class="else"><a href="">其他</a></li>
+                <li><a href="">专题</a></li>
+                <li><a href="">甄选家</a></li>
+            </ul>
+
+            <div id="FirstTabContent">
+                <ol class="navbar-nav">
+                    <li><a href=""><img src="images/beizhen.png" alt=""><p>被枕</p></a></li>
+                    <li><a href=""><img src="images/chuangpin.png" alt=""><p>床品件套</p></a></li>
+                    <li><a href=""><img src="images/chuangdian.png" alt=""><p>床垫</p></a></li>
+                    <li><a href=""><img src="images/didian.png" alt=""><p>地垫</p></a></li>
+                    <li><a href=""><img src="images/jiaju.png" alt=""><p>家具</p></a></li>
+                    <li><a href=""><img src="images/shuzuo.png" alt=""><p>舒坐</p></a></li>
+                    <li><a href=""><img src="images/dengju.png" alt=""><p>灯具</p></a></li>
+                    <li><a href=""><img src="images/bigua.png" alt=""><p>家饰</p></a></li>
+                </ol>
+            </div>
+            <div id="SecondTabContent">
+                <ol class="navbar-nav">
+                    <li><a href=""><img src="images/guoju.png" alt=""><p>锅具锅具</p></a></li>
+                    <li><a href=""><img src="images/daochan.png" alt=""><p>刀铲</p></a></li>
+                    <li><a href=""><img src="images/gongneng.png" alt=""><p>功能厨具</p></a></li>
+                    <li><a href=""><img src="images/canju.png" alt=""><p>餐具</p></a></li>
+                    <li><a href=""><img src="images/beihu.png" alt=""><p>杯壶</p></a></li>
+                    <li><a href=""><img src="images/chaju.png" alt=""><p>茶具</p></a></li>
+                    <li><a href=""><img src="images/baoxian.png" alt=""><p>置屋保鲜</p></a></li>
+                    <li><a href=""><img src="images/qingjie.png" alt=""><p>清洁</p></a></li>
+                </ol>
+            </div>
+            <div id="ThirdTabContent">
+                <ol class="navbar-nav">
+                    <li><a href=""><img src="images/gongnengxiangbao.png" alt=""><p>功能箱包</p></a></li>
+                    <li><a href=""><img src="images/danjian.png" alt=""><p>双肩包</p></a></li>
+                    <li><a href=""><img src="images/shuangjian.png" alt=""><p>单肩包</p></a></li>
+                    <li><a href=""><img src="images/xie.png" alt=""><p>鞋</p></a></li>
+                    <li><a href=""><img src="images/xue.png" alt=""><p>靴</p></a></li>
+                    <li><a href=""><img src="images/tuoxie.png" alt=""><p>拖鞋</p></a></li>
+                    <li><a href=""><img src="images/weijin.png" alt=""><p>围巾件套</p></a></li>
+                    <li><a href=""><img src="images/peijian.png" alt=""><p>配饰</p></a></li>
+                </ol>
+            </div>
+            <div id="FourthTabContent">
+                <ol class="navbar-nav">
+                    <li><a href=""><img src="images/neiku.png" alt=""><p>内裤</p></a></li>
+                    <li><a href=""><img src="images/neiyi.png" alt=""><p>内衣</p></a></li>
+                    <li><a href=""><img src="images/wazi.png" alt=""><p>袜子</p></a></li>
+                    <li><a href=""><img src="images/waiyi.png" alt=""><p>外衣</p></a></li>
+                    <li><a href=""><img src="images/jiajufu.png" alt=""><p>家居服</p></a></li>
+                    <li><a href=""><img src="images/chenshan.png" alt=""><p>衬衫</p></a></li>
+                    <li><a href=""><img src="images/txu.png" alt=""><p>T恤</p></a></li>
+                </ol>
+            </div>
+            <div id="FifthTabContent">
+                <ol class="navbar-nav">
+                    <li><a href=""><img src="images/maojin.png" alt=""><p>毛巾</p></a></li>
+                    <li><a href=""><img src="images/xaingxun.png" alt=""><p>香薰</p></a></li>
+                    <li><a href=""><img src="images/meihzuang.png" alt=""><p>美妆</p></a></li>
+                    <li><a href=""><img src="images/mianbuhuli.png" alt=""><p>面部护理</p></a></li>
+                    <li><a href=""><img src="images/jingshu.png" alt=""><p>镜梳</p></a></li>
+                    <li><a href=""><img src="images/riyongqingjie.png" alt=""><p>日用清洁</p></a></li>
+                    <li><a href=""><img src="images/yongju.png" alt=""><p>用具</p></a></li>
+                </ol>
+            </div>
+            <div id="SixthTabContent">
+                <ol class="navbar-nav">
+                    <li><a href=""><img src="images/fushi.png" alt=""><p>服饰</p></a></li>
+                    <li><a href=""><img src="images/mami.png" alt=""><p>妈咪</p></a></li>
+                    <li><a href=""><img src="images/qinju.png" alt=""><p>寝居</p></a></li>
+                    <li><a href=""><img src="images/wanju.png" alt=""><p>玩具</p></a></li>
+                    <li><a href=""><img src="images/yongpin.png" alt=""><p>用品</p></a></li>
+                    <li><a href=""><img src="images/weiyang.png" alt=""><p>喂养</p></a></li>
+                </ol>
+            </div>
+            <div id="SeventhTabContent">
+                <ol class="navbar-nav">
+                    <li><a href=""><img src="images/wenju.png" alt=""><p>文具</p></a></li>
+                    <li><a href=""><img src="images/shouna.png" alt=""><p>收纳</p></a></li>
+                    <li><a href=""><img src="images/lvxing.png" alt=""><p>旅行</p></a></li>
+                    <li><a href=""><img src="images/yuju.png" alt=""><p>雨具</p></a></li>
+                    <li><a href=""><img src="images/kouzhao.png" alt=""><p>口罩</p></a></li>
+                </ol>
+            </div>
+            <div id="EighthTabContent">
+                <ol class="navbar-nav">
+                    <li><a href=""><img src="images/xiaoshi.png" alt=""><p>小食</p></a></li>
+                    <li><a href=""><img src="images/gaodian.png" alt=""><p>糕点</p></a></li>
+                    <li><a href=""><img src="images/chaohuo.png" alt=""><p>炒货</p></a></li>
+                    <li><a href=""><img src="images/chongyin.png" alt=""><p>冲饮</p></a></li>
+                    <li><a href=""><img src="images/shicai.png" alt=""><p>食材</p></a></li>
+                </ol>
+            </div>
+            <div id="NinthTabContent">
+                <ol class="navbar-nav">
+                    <li><a href=""><img src="images/riben.png" alt=""><p>日本</p></a></li>
+                    <li><a href=""><img src="images/jierilihe.png" alt=""><p>节日礼盒</p></a></li>
+                    <li><a href=""><img src="images/pet.png" alt=""><p>宠物</p></a></li>
+                    <li><a href=""><img src="images/shuma.png" alt=""><p>数码</p></a></li>
+                    <li><a href=""><img src="images/outdoor.png" alt=""><p>户外</p></a></li>
+                    <li><a href=""><img src="images/xiaritianxin.png" alt=""><p>夏日甜心</p></a></li>
+                    <li><a href=""><img src="images/lipinka.png" alt=""><p>礼品卡</p></a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="container">
+            <ol class="breadcrumb itemnav">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="#">配件</a></li>
+                <li><a href="#">双肩包</a></li>
+                <li class="active">商务出行多功能双肩包</li>
+            </ol>
+            <div class="wrappic">
+                <div id="showBigPic"><img src="images/dbagbig1.png"></div>
+                <div id="choosePic">
+                    <p class="modPBorder"><img src="images/dbag1.png"></p>
+                    <p><img src="images/dbag2.jpg"></p>
+                    <p><img src="images/dbag3.jpg"></p>
+                    <p><img src="images/dbag4.jpg"></p>
+                    <p><img src="images/dbag5.jpg"></p>
+                </div>
+                <div class="itemcontent">
+                   <h3>商务出行多功能双肩包</h3><span class="new">新品</span><span href="" class="product">新秀丽制造</span>
+                    <h6>为短途旅行贴身设计</h6>
+                    <div>
+                        <p>售价<span>￥</span><span class="price" id="price">239.00</span></p>
+                        <p>促销<span class="yearfestival">年货节</span><a href="">全场4重礼 最高直减750元</a></p>
+                        <p class="service">服务<span>*30天无忧退货</span><span>*48小时快速退款</span><span>*满88元免邮费</span><span>*网易自营品牌</span></p>
+                    </div>
+                    <p>颜色<strong>黑色</strong></p>
+                    <p>数量<span><i id="subbtn" class="glyphicon glyphicon-minus symbol"></i><i id="number">1</i><i id="addbtn" class="glyphicon glyphicon-plus"></i></span></p>
+                    <button class="btn btn-default btn-lg">立即购买</button>
+                    <button class="btn btn-warning btn-lg" id="addcart"><i class="glyphicon glyphicon-shopping-cart"></i> 加入购物车</button>
+                    <p class="collect"><span class="glyphicon glyphicon-star-empty"></span>收藏</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div class="alert alertfirst" role="alert"></div>
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery-2.1.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/move.js"></script>
+    <script src="js/item-detail.js"></script>
+</body>
+</html>
